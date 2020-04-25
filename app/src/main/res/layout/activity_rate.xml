@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+		<RatingBar
+			android:id="@+id/ratingBar"
+			android:layout_width="236dp"
+			android:layout_height="45dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.176"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/editText11"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<Spinner
+			android:id="@+id/spinner1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.498"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/editText16"
+			app:layout_constraintVertical_bias="0.004" />
+
+		<EditText
+			android:id="@+id/editText11"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:ems="10"
+			android:inputType="textPersonName"
+			android:text="How is the lighting area?"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.153"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/spinner1"
+			app:layout_constraintVertical_bias="0.013" />
+
+		<EditText
+			android:id="@+id/editText12"
+			android:layout_width="328dp"
+			android:layout_height="46dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:ems="10"
+			android:inputType="textPersonName"
+			android:text="How is the security in the area [ i.e.,"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.402"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<EditText
+			android:id="@+id/editText13"
+			android:layout_width="336dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:ems="10"
+			android:inputType="textPersonName"
+			android:text=" presence of police and security guards]"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.457"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/editText12"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<RatingBar
+			android:id="@+id/ratingBar2"
+			android:layout_width="238dp"
+			android:layout_height="47dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.171"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/editText13"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<EditText
+			android:id="@+id/editText14"
+			android:layout_width="329dp"
+			android:layout_height="50dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:ems="10"
+			android:inputType="textPersonName"
+			android:text="How is the gender usage of the area [i.e."
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.409"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/ratingBar2"
+			app:layout_constraintVertical_bias="0.014" />
+
+		<EditText
+			android:id="@+id/editText15"
+			android:layout_width="325dp"
+			android:layout_height="41dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:ems="10"
+			android:inputType="textPersonName"
+			android:text="Presence of women and children]"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.385"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/editText14"
+			app:layout_constraintVertical_bias="0.013" />
+
+		<RatingBar
+			android:id="@+id/ratingBar3"
+			android:layout_width="245dp"
+			android:layout_height="49dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.174"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/editText15"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<EditText
+			android:id="@+id/editText16"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:ems="10"
+			android:inputType="textPersonName"
+			android:text="Ratings"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.142"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.038" />
+
+		<Button
+			android:id="@+id/subty"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginTop="32dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:text="Submit"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.433"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/ratingBar3" />
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

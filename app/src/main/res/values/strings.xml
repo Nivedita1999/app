@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">women_safety</string>
+
+    <string-array name="Locations">
+        <item>Dhankawadi</item>
+        <item>Shankar Sheth Road</item>
+        <item>Swargate</item>
+        <item>Laxmi road</item>
+        <item>Tadiwaala Road</item>
+    </string-array>
+</resources>
